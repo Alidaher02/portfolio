@@ -34,7 +34,7 @@ Taskbtn.addEventListener("click" , function(){
     toDoList.innerHTML = `
     <div class="to-do-container flex items-center gap-5 justify-between px-5 border-4 rounded-2xl py-5 border-[#a6740c] pb-5 ">
         <p class="text-lg font-serif">${inputBox.value}</p>
-        <button class="py-3 px-5 bg-red-600 rounded-2xl" id="del">Delete</button>
+        <button class="py-3 px-5 bg-red-600 rounded-2xl text-white" id="del">Delete</button>
       </div>
     `
     inputBox.value = "";
@@ -46,4 +46,5 @@ Taskbtn.addEventListener("click" , function(){
     toDoList.remove();
   });
    }
+
 });
